@@ -8,7 +8,7 @@ variable "name" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-aws-cloudwatch-alarms"
+  default     = "https://github.com/sohanyadav/terraform-aws-cloudwatch-alarms"
   description = "Terraform current module repo"
 
   validation {
@@ -32,8 +32,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "example"
+  description = "ManagedBy, eg 'sohanyadav'."
 }
 
 #Module      : CLOUDWATCH METRIC ALARM
